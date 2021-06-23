@@ -1,10 +1,10 @@
 # C# Console Applications App01 to App05
 | Author | Details |
 | ---- | ---- |
-**Name**: | Student Name  |
+**Name**: | Benjamin  |
 **Student ID**: | 12345678 |
-**Course:** | Computing |
-**Module**: | CO453     |
+**Course:** |  |
+**Module**: |     |
 **Started**: | January 2021 |    
 
 1. App01: Distance Converter

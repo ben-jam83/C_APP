@@ -83,8 +83,9 @@ namespace ConsoleAppProject.App01
             Console.Write("Please enter the number of feet > ");
             string value = Console.ReadLine();
             feet = Convert.ToDouble(value);
-        }
 
+        
+        }
 
 
         private void CalculateFeet()

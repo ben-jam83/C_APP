@@ -25,7 +25,7 @@ namespace ConsoleAppProject.App01
         /// </summary>
         public void MilesToFeet()
         {
-            OutputHeading();
+            OutputHeading("Converting Miles to Feet ");
             InputMiles();
             CalculateFeet();
             OutputFeet();
@@ -33,7 +33,7 @@ namespace ConsoleAppProject.App01
 
         public void FeetToMiles()
         {
-            OutputHeading();
+            OutputHeading("Converting Feet to Miles ");
             InputFeet();
             CalculateMiles();
             OutputMiles();
@@ -41,18 +41,21 @@ namespace ConsoleAppProject.App01
 
         public void MilesToMetres()
         {
-            OutputHeading();
+            OutputHeading("Converting Miles to Metres ");
             InputMiles();
             CalculateMetres();
             OutputMetres();
         }
 
-        private void OutputHeading()
+        private void OutputHeading(String prompt)
         {
             Console.WriteLine("\n--------------------");
-            Console.WriteLine(" Convert Miles to Feet");
+            Console.WriteLine(" Distance converter   ");
             Console.WriteLine("       By Ben         ");
             Console.WriteLine("--------------------\n");
+
+            Console.WriteLine(prompt);
+            Console.WriteLine();
         }
         /// <summary>
         /// Prompt the user to enter the miles 
@@ -65,6 +68,8 @@ namespace ConsoleAppProject.App01
             string value = Console.ReadLine();
             miles = Convert.ToDouble(value);
         }
+
+
 
         private void InputMetres()
         {

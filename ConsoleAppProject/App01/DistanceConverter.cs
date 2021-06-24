@@ -37,11 +37,11 @@ namespace ConsoleAppProject.App01
     
         private void CalculateFeet()
         {
-
+            Console.Write("value")    
         }
         private void OutputFeet()
         {
-
+            Console.Write("value")
 
         }
     }
